@@ -1,0 +1,52 @@
+<!-- Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 768px};
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { 980px}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {640px}
+
+/*We occasionally expand on these media queries to include a max-width to limit CSS to a narrower set of devices.*/
+.card-header{
+    background:#5caaa5;
+    font:#fff;
+    text-align: left;
+}
+#card-footer text-muted{
+        width:718px;
+        height:20px;
+        background:#141414;
+        padding:25px;
+        align-content: center;
+}
+#rectangle {
+	width: 710px;
+	height: 10px;
+	background: #5caaa5;
+}
+.h1{
+    color:#fff;
+}
+.h2{
+    color:#141414;
+}
+.image-thumbnail{
+    width:183px;
+    height: 153px;
+}
+.card-text-center{
+    display: flex;
+    justify-content: space-evenly;
+}
+.col-md-4{
+    border:2px solid black;
+}
+.p-3 mb-2 bg-dark text-white{
+    width:100%;height:2px;
+    border-style:solid;
+    border-color: #141414;
+}
